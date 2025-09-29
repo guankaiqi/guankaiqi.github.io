@@ -77,11 +77,16 @@ My name is Kaiqi Guan (官恺祺), I'm currently a undergraduate student at the 
 
 # 📃 Publications
 
+&dagger;: equal contribution, * : corresponding author
+
+<hr>
 
 <dl>
+  <dt><img align="left" width="400" src="../images/publications/FedPW_NeurIPS25.png" alt="FedPW"></dt>
   <dd><a href="" class="publication-title">Rethinking Fair Federated Learning from Parameter and Client View</a></dd>
-  <dd>Kaiqi Guan, Wenke Huang, Xianda Guo, Yueyang Yuan, Bin Yang, Mang Ye*</dd>
+  <dd><strong>Kaiqi Guan<sup>&dagger;</sup></strong>, Wenke Huang<sup>&dagger;</sup>, Xianda Guo, Yueyang Yuan, Bin Yang, Mang Ye*</dd>
   <dd>Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025</dd>
+  <dd><a href="https://github.com/guankaiqi/FedPW">[Project Page]</a></dd>
 </dl>
 
 <hr>
