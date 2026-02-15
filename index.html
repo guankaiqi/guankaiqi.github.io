@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Kaiqi Guan's home page">
+    <title>Kaiqi Guan's Homepage</title>
+    <link rel="icon" href="assets/img/profile.jpg" type="image/jpg">
+    <link href="./profile.css" rel="stylesheet" type="text/css">
+    <style>
+        body {
+            font-family: Georgia, serif;
+            color: #111;
+            width: 850px;
+        }
+
+        .profile-pic {
+            width: 180px;
+            border-radius: 50%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .profile-pic:hover {
+            transform: scale(1.04);
+        }
+
+        .top-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 0 100px;
+            margin-top: 10px;
+        }
+
+        .info-grid p {
+            margin: 0.4em 0;
+        }
+
+        .info-grid img {
+            width: 16px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        .emoji {
+            font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, sans-serif;
+            font-size: 1.1em;
+        }
+
+        .publication-entry {
+            display: flex;
+            align-items: flex-start;
+            background: #fdfdfd;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 10px;
+            border: 1px solid #eee;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+        }
+
+        .publication-entry img {
+            width: 200px;
+            height: 100px;
+            border-radius: 8px;
+            margin-right: 16px;
+            object-fit: cover;
+        }
+
+        .pub-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        h1,
+        h2 {
+            color: #263054;
+        }
+
+        h1 {
+            border-bottom: 1px solid #aaa;
+            padding-bottom: 5px;
+        }
+
+        h2 {
+            border-bottom: 1px solid #aaa;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div id="layout-content" style="margin: 25px; max-width: 800px;">
+        <h1>
+            Kaiqi Guan 
+            <!-- <span style="float: right; font-size: 0.6em; font-weight: normal;">
+                <a href="/assets/cv/cv_zh_CN.pdf" target="_blank">简历</a> / <a href="/assets/cv/cv_en.pdf" target="_blank">cv</a>
+            </span> -->
+        </h1>
+        
+        <div class="top-section">
+            <div style="max-width: 100%;">
+                <div class="info-grid">
+                    <p>
+                        <img src="assets/img/email.png" alt="Email">
+                        <a href="mailto:guankaiqi@whu.edu.cn">guankaiqi@whu.edu.cn</a>
+                    </p>
+
+                    <p>
+                        <img src="assets/img/google-color.svg" alt="Google Scholar">
+                        <a href="https://scholar.google.com/citations?user=ptPCqtMAAAAJ" target="_blank">Google Scholar</a>
+                    </p>
+                    
+                    <p>
+                        <img src="assets/img/github-mark.svg" alt="GitHub">
+                        <a href="https://github.com/guankaiqi" target="_blank">GitHub</a>
+                    </p>
+
+                    <p>
+                        <img src="assets/img/school.png" alt="University">
+                        <a href="https://www.whu.edu.cn/" target="_blank">Wuhan University</a>
+                    </p>
+
+                    <p>
+                        <img src="assets/img/ORCID_iD.svg" alt="ORCID">
+                        <a href="https://orcid.org/0009-0005-6599-4944" target="_blank">ORCID</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h2>About Me</h2>
+        <p>My name is Kaiqi Guan (官恺祺), I'm currently a undergraduate student at the <a href="https://cs.whu.edu.cn/" target="_blank">School of Computer Science</a>, <a href="https://www.whu.edu.cn/" target="_blank">Wuhan University</a>, fortunately supervised by <b>Prof. <a href="https://marswhu.github.io/index.html" target="_blank">Mang Ye</a></b> and <b>Mr. <a href="https://scholar.google.com/citations?hl=zh-CN&user=aFoCI3MAAAAJ" target="_blank">Wenke Huang</a></b>.</p>
+
+        <h2>📃 Publications</h2>
+        <p><sup>†</sup>: equal contribution, <sup>*</sup>: corresponding author</p>
+        <ul class="pub-list">
+            <li>
+                <div class="publication-entry">
+                    <div>
+                        <b>Rethinking Fair Federated Learning from Parameter and Client View</b><br>
+                        <span style="color: #777;"><u><b>Kaiqi Guan<sup>†</sup></b></u>, Wenke Huang<sup>†</sup>, Xianda Guo, Yueyang Yuan, Bin Yang, Mang Ye<sup>*</sup></span><br>
+                        <i>Annual Conference on Neural Information Processing Systems <b>(NeurIPS)</b>, 2025</i><br>
+                        [<a href="https://openreview.net/forum?id=dY29IUPTuy" target="_blank">Paper</a>] [<a href="https://github.com/guankaiqi/FedPW" target="_blank">Code</a>]
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <h2>🎖 Honors and Awards</h2>
+        <ul>
+            <li><b>[2025.09]</b> <b>National Scholarship</b> (<u style="color: red;">Twice</u>) (<u>国家奖学金</u>) (Award Rate: <strong>0.4% nation-wide</strong>) - <i>Ministry of Education, China</i></li>
+            <li><b>[2024.09]</b> <b>National Scholarship</b> (<u>国家奖学金</u>) (Award Rate: <strong>0.4% nation-wide</strong>) - <i>Ministry of Education, China</i></li>
+        </ul>
+
+        <h2>📖 Education</h2>
+        <ul>
+            <li><b>[2023.09 - Now]</b> School of Computer Science, Wuhan University</li>
+        </ul>
+    </div>
+</body>
+
+</html>
